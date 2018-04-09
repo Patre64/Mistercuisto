@@ -1,0 +1,38 @@
+div,nav,p,ul
+{
+Background-color: rgb(72, 255, 0);
+color: black;
+margin: 50px;
+font-family: Verdana, Geneva, Arial, sans-serif;
+font-size: large;
+line-height: 150%
+}
+
+#Flex
+{
+display: flex;
+flex-wrap: wrap;
+}
+
+#Menusite
+{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+#Horraires
+{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#succes{
+    display: flex;
+    align-items: center;
+justify-content: center;
+   
+}
+
