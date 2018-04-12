@@ -1,18 +1,18 @@
 body
 {
-background-color: rgb(115, 247, 59);
+Background-color: rgb(115, 247, 59);
 color: black;
-margin: 50px;
+margin: 10px;
 font-family: Verdana, Geneva, Arial, sans-serif;
 font-size: large;
-line-height: 120%
+line-height: 150%
 }
 
-#Bandeau{
+#Bandeau
+{
 display: flex;
 align-items: center;
-justify-content: center
-
+justify-content: center;
 }
 
 #Menusite
@@ -23,35 +23,24 @@ justify-content: center;
 flex-wrap: wrap;
 }
 
-#Horraires
+#monFormu
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+input:focus
+{
+border: yellow;
+box-shadow: black;    
+}
+
+#conditions
 {
 display: flex;
 align-items: center;
 justify-content: center;
 }
-
-#recettes
-{
-display: flex;
-align-items: center;
-justify-content: center;
-}
-
-#succes
-{
-display: flex;
- align-items: center;
-justify-content: center;
-}
-
-#histoire{
-display: flex;
-align-items: center;
-justify-content: center;
-}
-
-#conditions{
-display: flex;
-align-items: center;
-justify-content: center;
-}
+    

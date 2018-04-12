@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <titleformulaire>
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="formulaire.css" />
+</head>
+
+<!--Bandeau superieur-->
+
+<header id="Bandeau">
+
+    <img src="Images/Restaurant.jpg" alt="photo du resto" />
+
+</header>
+
+<body>
+
+    <!--Menu du site-->
+
+    <div id="Menusite">
+
+        <div class="element1">
+            <nav>
+                <a href="index.html" alt="">Plat du jour</a>
+            </nav>
+        </div>
+        <div class="element2">
+            <nav>
+                <a href="#" alt="">Les Menus</a>
+            </nav>
+        </div>
+        <div class="element3">
+            <nav>
+                <a href="formulaire.html" alt="">Contacts</a>
+            </nav>
+        </div>
+
+    </div>
+
+
+    <!--Formulaire-->
+
+    <form id="monFormu">
+
+
+        <label class="form_col" for="lastName">Nom :</label>
+
+        <input type="text" id="lastName" required placeholder="Nom" />
+
+        <br />
+
+        <label class="form_col" for="firstName">Prénom :</label>
+
+        <input type="text" id="firstName" required placeholder="Prénom" />
+
+        <br />
+
+        <label class="form_col" for="age">Date :</label>
+
+        <input type="date" id="date" required placeholder="Date" />
+
+        <br />
+
+        <label class="form_col" for="login">Mobile :</label>
+
+        <input type="tel" id="login" required placeholder="Votre Téléphone" />
+
+        <br />
+
+        <label class="form_col" for="pwd1">Email :</label>
+
+        <input type="email" name="email" id="email" required placeholder="Votre Email" />
+
+
+
+          <!--Boutons-->
+
+        <button type="submit" value="ok" class="Bouton Valider" />
+        <p>Valider</p>
+
+        <br />
+        <br />
+
+        <button type="reset" class="Bouton Supprimer" />
+        <p>Supprimer</p>
+
+        <br />
+        <br />
+
+        <input type="reset" value="Réinitialiser le formulaire" />
+
+
+    </form>
+
+
+
+    <footer id="conditions">
+
+        <h3>CGU</h3>
+
+    </footer>
+
+
+    <scrip <!--Code JavaScript--></scrip>
+
+    <script src="formulaire.js"></script>
+
+
+
+    </scrip>
+
+</body>
+
+</html>
